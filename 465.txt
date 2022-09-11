@@ -1,0 +1,93 @@
+// 465
+explorer.exe .
+cd ic-project
+dfx new token
+ls -a
+
+- Open Vscode (ctrl + shirt + 5)
+dfx start
+dfx deploy
+
+***https://bobbyhadz.com/blog/react-module-not-found-cant-resolve-ts-loader
+npm install --save-dev ts-loader typescript
+npm install --save-dev ts-loader@latest typescript@latest
+npm install -D ts-loader typescript
+npm install webpack-cli@4.10.0
+npm start
+
+go localhost:8080
+
+
+
+// 466
+dfx identity get-principal
+OWNER_PUBLIC_KEY="principal \"$( \dfx identity get-principal )\""
+echo $OWNER_PUBLIC_KEY
+dfx canister call token balanceOf "( $OWNER_PUBLIC_KEY )"
+
+
+
+// 468
+dfx canister call token payOut
+
+// 469
+dfx canister call token payOut
+dfx canister call token transfer
+dfx deploy
+
+// 472
+dfx canister id token
+CANISTER_PUBLIC_KEY="principal \"$( \dfx canister id token )\""
+echo $CANISTER_PUBLIC_KEY
+dfx canister call token transfer "($CANISTER_PUBLIC_KEY, 500_000_000)"
+
+// 473
+https://identity.ic0.app/
+localhost:8080
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
