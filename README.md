@@ -1,3 +1,8 @@
+#Create_Crypto_Token
+
+![image](https://user-images.githubusercontent.com/107684179/189525591-8b7b09ca-e878-459d-af46-37ad5968b473.png)
+
+
 # Check your Balance
 
 1. Find out your principal id:
