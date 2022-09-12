@@ -45,18 +45,19 @@ dfx canister call token transfer "($CANISTER_PUBLIC_KEY, 500_000_000)"
 https://identity.ic0.app/
 localhost:8080
 
+// 474
+dfx deploy --network ic
+dfx canister --network ic id token
+LIVE_CANISTER_KEY="principal \"$( \dfx canister --network ic id token )\""
+echo $LIVE_CANISTER_KEY
+dfx canister --network ic call token transfer "($LIVE_CANISTER_KEY, 50_000_000)"
+dfx canister --network ic id token_assets
+.raw.ic0.app
 
-
-
-
-
-
-
-
-
-
-
-
+dfx deploy --network ic
+dfx deploy --network ic
+dfx deploy --network ic
+dfx deploy --network ic
 
 
 
